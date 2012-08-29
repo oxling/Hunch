@@ -10,6 +10,7 @@ Tapping on the callout in a map annotation brings you to a detail screen, which 
 
 ## To-Do
 Future changes:
+
 1. Add error handling (network conditions, malformed requests, etc.)
 2. Allow the user to specify their own username
 3. Add more information to the detailed screen 
