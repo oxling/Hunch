@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E143C34115EE9233006DF276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E143C34015EE9233006DF276 /* UIKit.framework */; };
+		E143C34315EE9233006DF276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E143C34215EE9233006DF276 /* Foundation.framework */; };
+		E143C34515EE9234006DF276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E143C34415EE9233006DF276 /* CoreGraphics.framework */; };
+		E143C34B15EE9234006DF276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E143C34915EE9234006DF276 /* InfoPlist.strings */; };
+		E143C34D15EE9234006DF276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E143C34C15EE9234006DF276 /* main.m */; };
+		E143C35115EE9234006DF276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E143C35015EE9234006DF276 /* AppDelegate.m */; };
+		E143C35415EE9234006DF276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E143C35315EE9234006DF276 /* ViewController.m */; };
+		E143C35715EE9234006DF276 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E143C35515EE9234006DF276 /* ViewController.xib */; };
+		E143C35F15EE92C3006DF276 /* HunchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E143C35E15EE92C3006DF276 /* HunchRequest.m */; };
+		E143C36215EE9D98006DF276 /* HunchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E143C36115EE9D98006DF276 /* HunchResult.m */; };
+		E143C36415EEA791006DF276 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E143C36315EEA791006DF276 /* MapKit.framework */; };
+		E143C36615EEA85B006DF276 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E143C36515EEA85B006DF276 /* CoreLocation.framework */; };
+		E143C36A15EEAFB3006DF276 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E143C36815EEAFB2006DF276 /* DetailViewController.m */; };
+		E143C36B15EEAFB3006DF276 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E143C36915EEAFB3006DF276 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E143C33C15EE9233006DF276 /* Hunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E143C34015EE9233006DF276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E143C34215EE9233006DF276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E143C34415EE9233006DF276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E143C34815EE9234006DF276 /* Hunch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hunch-Info.plist"; sourceTree = "<group>"; };
+		E143C34A15EE9234006DF276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E143C34C15EE9234006DF276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E143C34E15EE9234006DF276 /* Hunch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hunch-Prefix.pch"; sourceTree = "<group>"; };
+		E143C34F15EE9234006DF276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E143C35015EE9234006DF276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E143C35215EE9234006DF276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E143C35315EE9234006DF276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E143C35615EE9234006DF276 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E143C35D15EE92C3006DF276 /* HunchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunchRequest.h; sourceTree = "<group>"; };
+		E143C35E15EE92C3006DF276 /* HunchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunchRequest.m; sourceTree = "<group>"; };
+		E143C36015EE9D98006DF276 /* HunchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunchResult.h; sourceTree = "<group>"; };
+		E143C36115EE9D98006DF276 /* HunchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunchResult.m; sourceTree = "<group>"; };
+		E143C36315EEA791006DF276 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E143C36515EEA85B006DF276 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E143C36715EEAFB2006DF276 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E143C36815EEAFB2006DF276 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E143C36915EEAFB3006DF276 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E143C33915EE9233006DF276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E143C36615EEA85B006DF276 /* CoreLocation.framework in Frameworks */,
+				E143C36415EEA791006DF276 /* MapKit.framework in Frameworks */,
+				E143C34115EE9233006DF276 /* UIKit.framework in Frameworks */,
+				E143C34315EE9233006DF276 /* Foundation.framework in Frameworks */,
+				E143C34515EE9234006DF276 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E143C33115EE9233006DF276 = {
+			isa = PBXGroup;
+			children = (
+				E143C34615EE9234006DF276 /* Hunch */,
+				E143C33F15EE9233006DF276 /* Frameworks */,
+				E143C33D15EE9233006DF276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E143C33D15EE9233006DF276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E143C33C15EE9233006DF276 /* Hunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E143C33F15EE9233006DF276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E143C36515EEA85B006DF276 /* CoreLocation.framework */,
+				E143C36315EEA791006DF276 /* MapKit.framework */,
+				E143C34015EE9233006DF276 /* UIKit.framework */,
+				E143C34215EE9233006DF276 /* Foundation.framework */,
+				E143C34415EE9233006DF276 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E143C34615EE9234006DF276 /* Hunch */ = {
+			isa = PBXGroup;
+			children = (
+				E143C34F15EE9234006DF276 /* AppDelegate.h */,
+				E143C35015EE9234006DF276 /* AppDelegate.m */,
+				E143C35215EE9234006DF276 /* ViewController.h */,
+				E143C35315EE9234006DF276 /* ViewController.m */,
+				E143C36715EEAFB2006DF276 /* DetailViewController.h */,
+				E143C36815EEAFB2006DF276 /* DetailViewController.m */,
+				E143C36915EEAFB3006DF276 /* DetailViewController.xib */,
+				E143C35515EE9234006DF276 /* ViewController.xib */,
+				E143C35D15EE92C3006DF276 /* HunchRequest.h */,
+				E143C35E15EE92C3006DF276 /* HunchRequest.m */,
+				E143C36015EE9D98006DF276 /* HunchResult.h */,
+				E143C36115EE9D98006DF276 /* HunchResult.m */,
+				E143C34715EE9234006DF276 /* Supporting Files */,
+			);
+			path = Hunch;
+			sourceTree = "<group>";
+		};
+		E143C34715EE9234006DF276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E143C34815EE9234006DF276 /* Hunch-Info.plist */,
+				E143C34915EE9234006DF276 /* InfoPlist.strings */,
+				E143C34C15EE9234006DF276 /* main.m */,
+				E143C34E15EE9234006DF276 /* Hunch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E143C33B15EE9233006DF276 /* Hunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E143C35A15EE9234006DF276 /* Build configuration list for PBXNativeTarget "Hunch" */;
+			buildPhases = (
+				E143C33815EE9233006DF276 /* Sources */,
+				E143C33915EE9233006DF276 /* Frameworks */,
+				E143C33A15EE9233006DF276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hunch;
+			productName = Hunch;
+			productReference = E143C33C15EE9233006DF276 /* Hunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E143C33315EE9233006DF276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Amy Dyer";
+			};
+			buildConfigurationList = E143C33615EE9233006DF276 /* Build configuration list for PBXProject "Hunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E143C33115EE9233006DF276;
+			productRefGroup = E143C33D15EE9233006DF276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E143C33B15EE9233006DF276 /* Hunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E143C33A15EE9233006DF276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E143C34B15EE9234006DF276 /* InfoPlist.strings in Resources */,
+				E143C35715EE9234006DF276 /* ViewController.xib in Resources */,
+				E143C36B15EEAFB3006DF276 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E143C33815EE9233006DF276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E143C34D15EE9234006DF276 /* main.m in Sources */,
+				E143C35115EE9234006DF276 /* AppDelegate.m in Sources */,
+				E143C35415EE9234006DF276 /* ViewController.m in Sources */,
+				E143C35F15EE92C3006DF276 /* HunchRequest.m in Sources */,
+				E143C36215EE9D98006DF276 /* HunchResult.m in Sources */,
+				E143C36A15EEAFB3006DF276 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E143C34915EE9234006DF276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E143C34A15EE9234006DF276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E143C35515EE9234006DF276 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E143C35615EE9234006DF276 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E143C35815EE9234006DF276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E143C35915EE9234006DF276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E143C35B15EE9234006DF276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hunch/Hunch-Prefix.pch";
+				INFOPLIST_FILE = "Hunch/Hunch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E143C35C15EE9234006DF276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hunch/Hunch-Prefix.pch";
+				INFOPLIST_FILE = "Hunch/Hunch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E143C33615EE9233006DF276 /* Build configuration list for PBXProject "Hunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E143C35815EE9234006DF276 /* Debug */,
+				E143C35915EE9234006DF276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E143C35A15EE9234006DF276 /* Build configuration list for PBXNativeTarget "Hunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E143C35B15EE9234006DF276 /* Debug */,
+				E143C35C15EE9234006DF276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E143C33315EE9233006DF276 /* Project object */;
+}
